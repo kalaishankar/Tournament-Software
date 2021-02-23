@@ -1,0 +1,44 @@
+
+.sidebar {
+    margin-top: -1%;
+    height: 350px;
+    display: block;
+    width: 160px;
+    background-color:	#2f4050;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    
+    
+  }
+  .text-list {
+    display: block;
+    color:white;
+    padding: 8px 16px;
+    text-decoration: none;
+    justify-content:left;
+    font-size: 12px;
+    
+  }
+
+  .text-list:hover {
+    background-color: #555;
+    
+  }
+.sidebarlist{
+    height:auto;
+    padding:0;
+    width:100%;
+
+}
+.row{
+    height:50px;
+    width:100%;
+    color:white;
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+}

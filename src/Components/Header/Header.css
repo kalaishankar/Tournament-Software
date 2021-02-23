@@ -1,0 +1,9 @@
+.header{
+    display: block;
+    width:800px;
+    height:180px;
+    background-color:#0f9fea;
+    margin-left: 160px;
+    margin-top:  -530px;
+    min-height: 60px;
+}
