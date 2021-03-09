@@ -11,52 +11,39 @@ function Tab () {
             setToggleState(index);
         }
     return (
-          <div className="flex-box">
+
+<div className="flex-box">
           <div className="header-text">
-          <p className="title">Tournaments</p>
+          <h2 className="title">Tournaments</h2>
           <p className="button">
-          <a role="button" href="" className="btn-link">TOURNAMENTS</a>
-          <a role="button" href=""class="btn-link1">LEAGUES</a>
+          <a role="button" href="/find/tournament" className="btn-link">TOURNAMENTS</a>
+          <a role="button" href="find/league" className="btn-link1">LEAGUES</a>
           </p>
           </div>
           <div className="tab-box">
-          <ul className="nav nav-tabs">
-          <li className="active">
-              <a data-toggle="tab" href="#recent" className = {toggleState === 1 ? "tab-data" : "tab"} onClick = {() => toggleTab(1)}>Recent</a>
-          </li>
-          <li>
-              <a data-toggle="tab" href="#thisweek" className = {toggleState === 2 ? "tab-data" : "tab"} onClick = {() => toggleTab(2)}>This Week</a>
-          </li>
-          <li>
-              <a data-toggle="tab" href="#upcoming" className = {toggleState === 3 ? "tab-data" : "tab"} onClick = {() => toggleTab(3)}>Upcoming</a>
-          </li>
-          <li>
-              <a className ="dropdown-toggle" data-toggle="dropdown"  href="#more" className = {toggleState === 4 ? "tab-data" : "tab"} onClick = {() => toggleTab(4)}>More <span class="caret"></span></a>
-          <ul className="dropdown-menu">
-          <li>
-              <a href="#">More visited</a>
-          </li>                    
+              <ul>
+              <li>Recent</li>
+              <li>This Week</li>
+              <li>Upcoming</li>   
+              <li>More</li>
+              </ul>
+          </div>
+          <div className="content-box"> 
+          <ul className="ullist">
+              <li className="list-item">
+                  <div className="media">
+                  <a href="/sport/tournament?id=DA0E5913-714E-4409-A11C-DEC0A95CBF9F" class="media__img">
+                  <img src="//content.tournamentsoftware.com/images/club/9510347F-6137-4C2C-BE27-C22B956476F7.jpg" class="media__img-element" alt="JWS-Testturnier 1-2019 B-RLT NRW  U11-U19"></img>
+                  </a>
+
+                  </div>
+              </li>
           </ul>
-          </li>
-          </ul>
+          </div> 
+
           
-          <div className="content-box1">
-          <div className= {toggleState === 2 ? "tab-content2" : "content"}>
-           <ul className="ullist-items">
-         <li className="list-items">
-         <div className="image-1">
-         <a href="/sport/tournament?id=155AF153-93F7-4F25-93E8-74514B474468" className="media__img"><img src="//content.tournamentsoftware.com/images/club/event-no-photo.svg" class="media__img-element" alt="Smashville Outdoor Winter  Pickleball Championships 2021"></img></a>
          </div>
-         <div Classname="link-box">
-         <a href="/sport/tournament?id=155AF153-93F7-4F25-93E8-74514B474468" title="Smashville Outdoor Winter  Pickleball Championships 2021" class="media__link">
-         <span className="nav-link">Smashville Outdoor Winter Pickleball Championships 2021</span>            </a>
-         </div>
-         </li>
-         </ul>
-         </div>
-         </div>
-         </div>
-         </div>
+
         );
 }
 

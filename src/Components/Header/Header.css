@@ -1,9 +1,11 @@
 .header{
+    position:fixed;
     display: block;
-    width:800px;
-    height:180px;
-    background-color:#0f9fea;
-    margin-left: 160px;
-    margin-top:  -530px;
+    box-sizing:border-box;
+    width:1300px;
+    height:220px;
     min-height: 60px;
+    background-color:#0f9fea;
+    margin-left: 230px;
+    margin-top: -220px;
 }

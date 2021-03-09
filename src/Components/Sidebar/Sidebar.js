@@ -1,19 +1,61 @@
 import React from 'react'
 import './Sidebar.css';
-import { Sidebardata } from "./Sidebardata";
 
 function Sidebar() {
     return (
+        <div>
+        <h1 className="logo">
+        <a className="logo__link" href="/">
+        <img src="//static.tournamentsoftware.com/Content/images/themes/tournamentsoftware/logo.svg?v=20190212130100" id="logo--desktop" alt="Tournamentsoftware.com"></img>
+        <span className="logo__name">Tournamentsoftware.com</span>
+        </a>
+        </h1>
         <div className="sidebar">
-          <ul>
-        <li className="text-list"><span class="glyphicon glyphicon-home"></span> Home</li>
-        <li className="text-list">Tournaments</li>
-        <li className="text-list">Leagues</li>
-        <li className="text-list">Clubs</li>
-        <li className="text-list">Players</li>
-        <li className="text-list">Ranking</li>
-        <li className="text-list">LiveScore</li>
+        <ul>
+          <li className="text-list">
+              <a href="#" className="sidebar_link">
+                  <span class="icon"></span><i class="glyphicon glyphicon-home"></i>
+                  <span class="title">Home</span>
+               </a>
+            </li>   
+          <li className="text-list">
+              <a href="#"  className="sidebar_link">
+                  <span class="icon"></span>
+                  <span class="title">Tournaments</span>
+               </a>
+           </li>
+           <li className="text-list">
+              <a href="#" className="sidebar_link">
+                  <span class="icon"><i class="fa fa-trophy"></i></span>
+                  <span class="title">Leagues</span>
+               </a>
+           </li>
+           <li className="text-list">
+              <a href="#" className="sidebar_link"  >
+                  <span class="icon"><i class="glyphicon glyphicon-flag"></i></span>
+                  <span class="title">Clubs</span>
+               </a>
+           </li>
+           <li className="text-list">
+              <a href="#"  className="sidebar_link">
+                  <span class="icon"><i class="fa fa-group"></i></span>
+                  <span class="title">Players</span>
+               </a>
+           </li>
+           <li className="text-list">
+              <a href="#"  className="sidebar_link">
+                  <span class="icon"><i class="fa fa-line-chart"></i></span>
+                  <span class="title">Ranking</span>
+               </a>
+           </li>
+           <li className="text-list">
+              <a href="#"  className="sidebar_link">
+                 <span class="icon"></span>
+                  <span class="title">LiveScore</span>
+               </a>
+           </li>
         </ul>
+        </div>
         </div>
         
         );
