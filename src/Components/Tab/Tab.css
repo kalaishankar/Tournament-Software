@@ -1,12 +1,11 @@
 .flex-box{
-  position: fixed;
+  position: absolute;
   display: flex;
   background-color:#fff;
   width: 630px;
-  height: 700px;
-  margin: 10px;
+  height: 2000px;
   margin-left: 300px;
-  margin-top: 60px;
+  margin-top: 320px;
 
 }
 .header-text{
@@ -78,18 +77,47 @@
 .tab-box ul li{
   box-sizing: border-box;
   margin-left: 10px;
-  font-weight: 400;
   background-color: rgba(208,210,216,.6);
   padding: 15px 30px;
-  color: #2a2c32;
-  font-size: 14px;
-  cursor:pointer;
   display: inline-block;
   text-align: center;
-  font-family: Open-Sans,sans-serif;
+ 
 }
-.tab-box ul li a:hover{
+.tab-box ul li a{
+  font-weight: 400;
+  font-size: 14px;
+  color: #2a2c32;
   text-decoration: none;
+  transition: all 0.3s ease;
+  text-transform:capitalize;
+  font-family: Open-Sans,sans-serif;
+  cursor:pointer;
+}
+.menuitem:hover .sub-menu{
+  opacity: 1;
+  visibility: visible;
+}
+.sub-menu{
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+  width:220px;
+  position:absolute;
+  left:0;
+  top:0;
+  background-color: #fff;
+  list-style-type: square;
+  margin-left: 320px;
+  margin-top: 150px;
+  opacity: 0;
+  visibility: hidden;
+}
+.menu1{
+  display: list-item;
+}
+.menu1 a{
+ display:block;
+ font-size:14px;
+ transition: all 0.3s ease;
+ text-transform: capitalize; 
 }
   
 .content-box{
@@ -113,6 +141,9 @@
     background-color:#fff;
     margin-top: 50px;
     box-sizing: border-box;
+}
+.tab-box ul li arrow{
+  margin-left:100px;
 }
 .media__img {
   position: relative;

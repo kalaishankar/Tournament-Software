@@ -6,13 +6,11 @@ import './Tab.css';
 function Tab () {
 
         const [toggleState, setToggleState] = useState(1);
-
         const toggleTab = (index) => {
             setToggleState(index);
         }
     return (
-
-<div className="flex-box">
+          <div className="flex-box">
           <div className="header-text">
           <h2 className="title">Tournaments</h2>
           <p className="button">
@@ -22,13 +20,17 @@ function Tab () {
           </div>
           <div className="tab-box">
               <ul>
-              <li>Recent</li>
-              <li>This Week</li>
-              <li>Upcoming</li>   
-              <li>More</li>
+              <li><a href="#">Recent</a></li>
+              <li><a href="#">This Week</a></li>
+              <li><a href="#">Upcoming</a></li>   
+              <li  className="menu-item"><a href="#">More</a><span class="glyphicon glyphicon-triangle-bottom"></span>
+              <ul className="sub-menu">
+                  <li className="menu1"><a href="#">Most Visited</a></li>
+              </ul>
+              </li>
               </ul>
           </div>
-          <div className="content-box"> 
+          {/* <div className="content-box"> 
           <ul className="ullist">
               <li className="list-item">
                   <div className="media">
@@ -39,7 +41,7 @@ function Tab () {
                   </div>
               </li>
           </ul>
-          </div> 
+          </div>  */}
 
           
          </div>
