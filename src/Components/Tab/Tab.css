@@ -65,24 +65,23 @@
 .tab-box ul li{
   box-sizing: border-box;
   margin-left: 10px;
-  background-color: rgba(208,210,216,.6);
+  background-color:rgba(208,210,216,.6);
   padding: 15px 30px;
   display: inline-block;
   text-align: center;
- 
+}
+.tab-box ul li a{
+  text-decoration: none;
 }
 .tab-box ul li:hover{
-  color: #fff;;
+  color: #fff;
 }
 .link{
   font-weight: 400;
   font-size: 14px;
   color: #2a2c32;
-  text-decoration: none;
+  text-decoration:none;
   font-family: Open-Sans,sans-serif;
-}
-.link:hover{
- color:#fff;
 }
 .menuitem:hover .sub-menu{
   opacity: 1;
@@ -122,14 +121,14 @@
   display:block;
   height:600px;
   margin-top: 150px;
-  position: absolute;
+  position:absolute;
 }
 .content-box2 ul{
   list-style: none;
   width:580px;
   height:1500px;
   margin-left: 25px;
-  margin-top:-60px;
+  margin-top:-10px;
   box-sizing: border-box;
   background-color:#fff;
 }
@@ -139,7 +138,9 @@
     width: 520px;
     height: 120px;
     background-color:#fff;
-    margin-top: 80px;
+    margin-top: 5px;
+    list-style-type: none;
+    
 }
 .media{
   position: absolute;
@@ -187,6 +188,7 @@ h4{
 }
 .media-link{
   color: #0f9fea;
- 
-
+}
+.nav-link__value{
+  margin-top: 0px;
 }

@@ -49,7 +49,55 @@ function Tab () {
                  <div className="content">
                   <h4 className="title">
                   <a href="/sport/tournament?id=DA0E5913-714E-4409-A11C-DEC0A95CBF9F" title="JWS-Testturnier 1-2019 B-RLT NRW  U11-U19" className="media-link">
-                  <span class="nav-link__value">JWS-Testturnier 1-2019 B-RLT NRW  U11-U19</span>           
+                  <span className="nav-link__value">JWS-Testturnier 1-2019 B-RLT NRW  U11-U19</span>           
+                  </a>
+                  </h4> 
+                  </div> 
+                  </div>
+                  </div>  
+              </li>
+              <li className="list-item">
+                  <div className="media">
+                  <div className="media-wrapper">
+                  <a href="/sport/tournament?id=DA0E5913-714E-4409-A11C-DEC0A95CBF9F" class="media-img">
+                  <img src="//content.tournamentsoftware.com/images/club/9510347F-6137-4C2C-BE27-C22B956476F7.jpg" className="media-img1" alt="JWS-Testturnier 1-2019 B-RLT NRW  U11-U19"></img>
+                  </a>
+                 <div className="content">
+                  <h4 className="title">
+                  <a href="/sport/tournament?id=C509BB9E-69A7-45B3-B3EA-A6133D8F7A38" title="JWS-Testturnier 2_FP_2020_ U11-U19" class="media__link">
+                  <span className="nav-link__value">JWS-Testturnier 2_FP_2020_ U11-U19</span>        
+                  </a>
+                  </h4> 
+                  </div> 
+                  </div>
+                  </div>  
+              </li>
+              <li className="list-item">
+                  <div className="media">
+                  <div className="media-wrapper">
+                  <a href="/sport/tournament?id=DA0E5913-714E-4409-A11C-DEC0A95CBF9F" class="media-img">
+                  <img src="//content.tournamentsoftware.com/images/club/9510347F-6137-4C2C-BE27-C22B956476F7.jpg" className="media-img1" alt="JWS-Testturnier 1-2019 B-RLT NRW  U11-U19"></img>
+                  </a>
+                 <div className="content">
+                  <h4 className="title">
+                  <a href="/sport/tournament?id=155AF153-93F7-4F25-93E8-74514B474468" title="Smashville Outdoor Winter  Pickleball Championships 2021" class="media__link">
+                  <span className="nav-link__value">Smashville Outdoor Winter  Pickleball Championships 2021</span>  
+                  </a>
+                  </h4> 
+                  </div> 
+                  </div>
+                  </div>  
+              </li>
+              <li className="list-item">
+                  <div className="media">
+                  <div className="media-wrapper">
+                  <a href="/sport/tournament?id=DA0E5913-714E-4409-A11C-DEC0A95CBF9F" class="media-img">
+                  <img src="//content.tournamentsoftware.com/images/club/9510347F-6137-4C2C-BE27-C22B956476F7.jpg" className="media-img1" alt="JWS-Testturnier 1-2019 B-RLT NRW  U11-U19"></img>
+                  </a>
+                 <div className="content">
+                  <h4 className="title">
+                  <a href="/sport/tournament?id=E814866E-17E7-4EDA-A3A2-A2536FFD75FC" title="Весенний Кубок ХБСК 2021" class="media__link">
+                  <span class="nav-link__value">Весенний Кубок ХБСК 2021</span>        
                   </a>
                   </h4> 
                   </div> 
